@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  net-core:
+    image: mywebsite
+    container_name: MyWebsite
+    ports:
+      - "8000:80"
